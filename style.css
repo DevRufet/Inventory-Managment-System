@@ -1,0 +1,28 @@
+body{
+  background-image: url("image/BS-7-1080x675.jpg");
+  
+  background-size: cover;
+  position: center;
+  background-attachment: fixed;
+}
+.collapse {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .form-label {
+    margin-right: 100px;
+  }
+  
+  .heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .collapse {
+      display: inline;
+    }
+  }
